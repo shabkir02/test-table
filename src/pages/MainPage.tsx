@@ -9,7 +9,7 @@ interface TMainPageProps {
 export function MainPage({ personList, handlePersonDelete }: TMainPageProps) {
     
     if (!personList) {
-        return <div className="loader">Loading...</div>
+        return <div className="loader">Loading....</div>
     }
 
     return (
